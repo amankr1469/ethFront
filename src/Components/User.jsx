@@ -3,7 +3,7 @@ import React from 'react'
 function User() {
   return (
     <div>
-    <h1>User</h1>
+
      
 <form class="max-w-sm mx-auto">
   <label for="website-admin" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Username</label>
