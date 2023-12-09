@@ -16,16 +16,24 @@ function User() {
     <input type="text" id="website-admin" class="rounded-none rounded-e-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Bonnie Green"/>
   </div>
   <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select your country</label>
+  <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-[20px]">
+
+<option>Proposal 1</option>
+<option>Proposal 2</option>
+<option>Proposal 3</option>
+</select>
   <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
 
     <option>Yes</option>
     <option>No</option>
   </select>
-</form>
-
-<button className='border border-purple-500 mt-[20px] rounded-xl text-2xl bg-purple-600 px-[10px] text-white'>
+  <button className='border border-purple-500 mt-[20px] rounded-xl text-2xl bg-purple-600 px-[10px] text-white'>
   Submit
 </button>
+
+</form>
+
+
 
     </div>
   )

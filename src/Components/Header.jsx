@@ -15,7 +15,7 @@ function Header() {
      text-transparent
      bg-clip-text   
      hover:scale-110 transition-all duration-500 ease-in-out'>
-    <span className='shadow-lg shadow-purple-400 '>ZkMonk</span></h1>
+    <span className='shadow-sm shadow-purple-400 '>ZkMonk</span></h1>
     <div className='flex gap-x-5 text-2xl mt-[70px] mr-[10px] lg:ml-[900px] ml-[400px]'>
     {/* <NavLink
     to="https://www.linkedin.com/in/ayush-singh-02b978248"
