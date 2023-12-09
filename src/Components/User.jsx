@@ -5,7 +5,7 @@ function User() {
     <div>
     <h1>User</h1>
      
-{/* <form class="max-w-sm mx-auto">
+<form class="max-w-sm mx-auto">
   <label for="website-admin" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Username</label>
   <div class="flex">
     <span class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border border-e-0 border-gray-300 rounded-s-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
@@ -23,7 +23,7 @@ function User() {
     <option>Candidate 3</option>
     <option>Candidate 4</option>
   </select>
-</form> */}
+</form>
 
     </div>
   )
