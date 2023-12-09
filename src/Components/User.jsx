@@ -23,6 +23,9 @@ function User() {
   </select>
 </form>
 
+<button className='border border-purple-500 mt-[20px] rounded-xl text-2xl bg-purple-600 px-[10px] text-white'>
+  Submit
+</button>
 
     </div>
   )
